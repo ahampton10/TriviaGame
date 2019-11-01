@@ -1,0 +1,44 @@
+body {
+    background-image: url("../images/Screen\ Shot\ 2019-11-01\ at\ 1.15.13\ PM.png"); 
+    background-size: 100%; 
+}
+.background {
+    background-color: rgba(255, 0, 0, 0.6); 
+    padding: 20px, 0px, 20px, 0px; 
+    margin-top: 150px; 
+ 
+}
+
+h1 {
+	color: white; 
+    font-family: 'Quicksand', sans-serif;
+    font-style: bold;  
+}
+
+.page-text {
+	font-size: 25px;
+    margin-bottom: 10px;
+    color: white; 
+    font-family: 'Quicksand', sans-serif;
+    font-style: bold; 
+}
+
+.answerBtn {
+	margin-bottom: 10px;
+	width: 80%;
+	font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-style: bold; 
+    color: white; 
+}
+
+.character {
+	margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Quicksand', sans-serif;
+    color: white; 
+}
+.text-center {
+    font-family: 'Quicksand', sans-serif;
+    color: white; 
+}
