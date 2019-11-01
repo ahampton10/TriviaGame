@@ -100,14 +100,14 @@ var questionsArray = [question01, question02, question03, question04, question05
         if (arrayFinder < questionsArray.length-1) {
         	setTimeout(function () {questionWrite(questionsArray[arrayFinder])}, 2000);
         	solutionWrite(questionsArray[arrayFinder]);
-	    	$(".question-div").html("Incorrect!");
+	    	$(".question-div").html("Time is Up!");
         	stop();
         	unanswered++;
       	}
       	else if (arrayFinder < questionsArray.length) {
       		setTimeout(function () {endWrite(questionsArray[arrayFinder])}, 2000);
       		solutionWrite(questionsArray[arrayFinder]);
-	    	$(".question-div").html("Incorrect!");
+	    	$(".question-div").html("Time is Up!");
         	stop();
         	unanswered++;
       	}
