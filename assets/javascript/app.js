@@ -8,9 +8,9 @@ var arrayFinder = 0;
 
 var question01 = {
     question: "What does a Mirepoix consist of?", 
-    answers: ["Celery onion and carrot", "Celery shallot and carrot", "Onion carrot and mushroom", "Shallot onion and celery"], 
+    answers: ["Celery, onion, and carrot", "Celery, shallot, and carrot", "Onion, carrot, and mushroom", "Shallot, onion, and celery"], 
     values: ["correct", "incorrect", "incorrect", "incorrect"], 
-    correct: "Celery onion and carrot", 
+    correct: "Celery, onion, and carrot", 
     image: "./assets/images/mirepoix.jpeg"
 }; 
 var question02 = {
@@ -21,7 +21,7 @@ var question02 = {
     image: "./assets/images/mayonnaise.jpg"
 }; 
 var question03 = {
-    question: "What is meant by al dente?", 
+    question: "What is meant by 'al dente'?", 
     answers: ["Overcooked pasta", "Pasta that is cooked until just done", "Pasta that is slightly undercooked", "Uncooked pasta"], 
     values: ["incorrect", "incorrect", "correct", "incorrect"], 
     correct: "Pasta that is slightly undercooked", 
